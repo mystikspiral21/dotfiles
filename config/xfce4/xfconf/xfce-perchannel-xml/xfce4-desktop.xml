@@ -1,0 +1,83 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-desktop" version="1.0">
+  <property name="last-settings-migration-version" type="uint" value="1"/>
+  <property name="backdrop" type="empty">
+    <property name="screen0" type="empty">
+      <property name="monitoreDP-1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="rgba1" type="array">
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="1"/>
+          </property>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-verticals.svg"/>
+          <property name="image-style" type="int" value="0"/>
+        </property>
+      </property>
+      <property name="monitorHDMI-1" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="image-style" type="int" value="0"/>
+          <property name="rgba1" type="array">
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="1"/>
+          </property>
+        </property>
+      </property>
+      <property name="monitor0x068D" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="image-style" type="int" value="0"/>
+          <property name="rgba1" type="array">
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="1"/>
+          </property>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-cp-dark.svg"/>
+          <property name="color-style" type="int" value="1"/>
+          <property name="rgba2" type="array">
+            <value type="double" value="0.013363513513513715"/>
+            <value type="double" value="0.0093000000000000426"/>
+            <value type="double" value="0.31"/>
+            <value type="double" value="1"/>
+          </property>
+        </property>
+      </property>
+      <property name="monitorHP24uh" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="1"/>
+          <property name="image-style" type="int" value="0"/>
+          <property name="rgba1" type="array">
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="0"/>
+            <value type="double" value="1"/>
+          </property>
+          <property name="rgba2" type="array">
+            <value type="double" value="0.01336351351351368"/>
+            <value type="double" value="0.0093000000000000079"/>
+            <value type="double" value="0.31"/>
+            <value type="double" value="1"/>
+          </property>
+          <property name="last-image" type="string" value="/home/benji/Pictures/in_flames_band_logo_by_aulikki_halonen-2351500394.jpg"/>
+        </property>
+      </property>
+    </property>
+    <property name="single-workspace-mode" type="bool" value="true"/>
+    <property name="single-workspace-number" type="int" value="0"/>
+  </property>
+  <property name="last" type="empty">
+    <property name="window-width" type="int" value="640"/>
+    <property name="window-height" type="int" value="559"/>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="icon-size" type="uint" value="64"/>
+    <property name="single-click" type="bool" value="true"/>
+    <property name="show-hidden-files" type="bool" value="true"/>
+    <property name="single-click-underline-hover" type="bool" value="true"/>
+    <property name="primary" type="bool" value="false"/>
+  </property>
+</channel>

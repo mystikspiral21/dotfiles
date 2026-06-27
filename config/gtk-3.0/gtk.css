@@ -1,0 +1,27 @@
+/* sidebar */
+.thunar .sidebar .view {background-color: #2e3440;}
+.thunar .sidebar .view :selected {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #f7f3ee, #de9d5d);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7d7260;
+  border-radius: 0px;
+}
+/* main view */
+.thunar .standard-view .view {color: #eceff4; background-color: #2e3440;}
+.thunar .standard-view .view:not(:selected) {color: #eceff4; background-color: #2e3440;}
+.thunar .view:selected {color: #f7f3ee; background-color: #de9d5d;}
+
+/* .thunar scrolledwindow { border-width: 0; background-color: transparent; } */
+
+/* headerbar { background-image: unset; background-color: #202020; } */
+
+/* Focused Window */
+/* headerbar { background-color: #202020; } */
+/* Unocused Window */
+/* headerbar:backdrop { background-color: #404040; } */
+
+/* headerbar buttons */
+button.minimize, button.maximize, button.close {color: #9C9C9C;}
+button.minimize:hover, button.maximize:hover, button.close:hover {color: #000000;}

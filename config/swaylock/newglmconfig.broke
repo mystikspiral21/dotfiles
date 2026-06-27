@@ -1,0 +1,44 @@
+# Matrix theme — Red text on black background
+ignore-empty-password
+show-failed-attempts
+
+# Base colors
+color=000000          # Pure black background
+
+# --- Clock & Date Settings ---
+clock
+timestr=%I:%M:%S %p   # 12-hour format (AM/PM)
+datestr=%m/%d/%Y      # Date format mm/dd/yyyy
+
+# --- Grace Period ---
+grace=5
+indicator
+
+# Indicator styling
+indicator-radius=120
+indicator-thickness=15
+
+# --- Removed broken red accents ---
+# Changed separator to black so it blends with the background
+separator-color=000000
+line-color=000000
+
+# Idle state (waiting for input)
+inside-color=000000
+ring-color=003300
+
+# Clear state (typing correct chars)
+inside-clear-color=000000
+ring-clear-color=00aa00
+
+# Verifying state (enter pressed)
+inside-ver-color=000000
+ring-ver-color=00ff00
+
+# Wrong password (Keeping ring red for error feedback)
+inside-wrong-color=000000
+ring-wrong-color=ff0000
+
+# Text/input colors (Changed to Red)
+text-color=ff0000        # Red text for clock/date
+key-hl-color=00ff00      # Green highlight for keys (kept for visibility)

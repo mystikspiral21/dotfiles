@@ -1,0 +1,45 @@
+# Matrix/Red Hybrid Theme
+ignore-empty-password
+show-failed-attempts
+
+# --- Background ---
+# Force pure black background
+color=000000
+
+# --- Clock & Date Settings ---
+clock
+# 12-Hour Format with AM/PM
+timestr=%I:%M:%S %p
+# Date with Slashes
+datestr=%m/%d/%Y
+
+# --- Text Colors ---
+# Changed to Red as requested
+text-color=ff0000
+key-hl-color=ff0000
+bs-hl-color=808080
+
+# --- Indicator Styling ---
+indicator
+indicator-radius=120
+indicator-thickness=15
+
+# --- State Colors ---
+# Idle state (waiting for input)
+inside-color=000000
+ring-color=003300
+
+# Clear state (typing correct chars)
+inside-clear-color=000000
+ring-clear-color=00aa00
+
+# Verifying state (enter pressed)
+inside-ver-color=000000
+ring-ver-color=00ff00
+
+# Wrong password
+inside-wrong-color=000000
+ring-wrong-color=ff0000
+
+# --- Removed Separator/Line Colors ---
+# (These were causing the scanner look issues)

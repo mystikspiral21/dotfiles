@@ -1,0 +1,23 @@
+[NotebookList]
+Default=
+1=~/Notebooks/Notes
+2=~/Notebooks/swayconfig
+3=~/Notebooks/CapstoneProject
+
+[Notebook 1]
+uri=~/Notebooks/Notes
+name=Notes
+interwiki=None
+icon=None
+
+[Notebook 2]
+uri=~/Notebooks/swayconfig
+name=swayconfig
+interwiki=None
+icon=None
+
+[Notebook 3]
+uri=~/Notebooks/CapstoneProject
+name=CapstoneProject
+interwiki=None
+icon=None

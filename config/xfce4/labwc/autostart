@@ -1,0 +1,14 @@
+#!/bin/bash
+# Start the XFCE settings daemon (Critical for themes/icons!)
+xfsettingsd &
+# Start the panel
+xfce4-panel &
+# Start the desktop (if you want icons on desktop)
+xfdesktop &
+# Pre-load the dropdown terminal so it's ready
+xfce4-terminal --drop-down &
+# Idle and Sleep Management
+swayidle -w \
+    timeout 300 'swaylock -f -c 000000' \
+    timeout 600 'systemctl suspend' \
+    before-sleep 'swaylock -f

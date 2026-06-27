@@ -1,0 +1,25 @@
+# Ignore compiled/binary files
+*.o
+*.so
+*.pyc
+__pycache__/
+
+# Ignore sensitive data
+*.pem
+*.key
+*secret*
+*token*
+
+# Ignore large cache directories
+**/cache/
+**/Cache/
+**/__pycache__/
+**/node_modules/
+
+# Browser/history stuff (if any creeps in)
+*.sqlite
+*.db
+
+# Ignore history files that might have sensitive commands
+.bash_history
+.zsh_history

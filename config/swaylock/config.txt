@@ -1,0 +1,48 @@
+# Matrix theme — green terminal glow on black
+ignore-empty-password
+show-failed-attempts
+
+# Base colors
+color=000000          # Pure black background
+
+# --- NEW: Clock & Date Settings ---
+clock
+timestr=%H:%M:%S
+datestr="%m-%d-%Y"
+# Note: The clock text will use the 'text-color' defined below (Matrix Green)
+
+# --- NEW: Grace Period ---
+# Allows you to unlock instantly for x seconds after locking
+grace=5
+indicator              # Keeps the indicator visible so you can see the clock during grace
+
+# Indicator styling
+indicator-radius=120
+indicator-thickness=15
+
+# --- NEW: Subtle Red Accent ---
+# Draws red lines between the ring segments, looking like a scanner/tech interface.
+# We removed 'line-uses-inside-color' so these red lines don't turn black.
+separator-color=ff0000
+line-color=000000      # Ensures other dividing lines stay black/invisible
+
+# Idle state (waiting for input)
+inside-color=000000   # Black interior
+ring-color=003300     # Very dark green ring (subtle glow)
+
+# Clear state (typing correct chars)
+inside-clear-color=000000
+ring-clear-color=00aa00
+
+# Verifying state (enter pressed)
+inside-ver-color=000000
+ring-ver-color=00ff00  # Bright Matrix green
+
+# Wrong password
+inside-wrong-color=000000
+ring-wrong-color=ff0000  # Red "system error" flash
+
+# Text/input colors
+text-color=00ff00        # Matrix green (applies to clock text too)
+key-hl-color=00ff00      # Highlighted key
+bs-hl-color=80ff80       # Backspace highlight

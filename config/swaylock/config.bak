@@ -1,0 +1,32 @@
+# Matrix theme — green terminal glow on black
+ignore-empty-password
+show-failed-attempts
+
+# Base colors
+color=000000          # Pure black background
+
+# Indicator styling (appears when typing password)
+indicator-radius=120
+indicator-thickness=15
+line-uses-inside-color
+
+# Idle state (waiting for input)
+inside-color=000000   # Black interior
+ring-color=003300     # Very dark green ring (subtle glow)
+
+# Clear state (typing correct chars)
+inside-clear-color=000000
+ring-clear-color=00aa00
+
+# Verifying state (enter pressed)
+inside-ver-color=000000
+ring-ver-color=00ff00  # Bright Matrix green
+
+# Wrong password
+inside-wrong-color=000000
+ring-wrong-color=ff0000  # Red "system error" flash
+
+# Text/input colors (the dots as you type)
+text-color=00ff00        # Matrix green
+key-hl-color=00ff00      # Highlighted key
+bs-hl-color=80ff80       # Backspace highlight

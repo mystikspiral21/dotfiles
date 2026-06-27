@@ -1,0 +1,9 @@
+# Matrix theme — terminal green on black
+font=Terminus 11
+background-color=#000000
+text-color=#00ff00
+border-size=2
+border-color=#003300
+border-radius=0
+default-timeout=4000
+anchor=top-right
